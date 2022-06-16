@@ -1,0 +1,167 @@
+:root {
+  --font-color: #757575;
+  --title-color: #212121;
+  --accient-color: #2196f3;
+}
+
+::selection {
+  color: #ffffff;
+  background-color: var(--accient-color);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff;
+  line-height: 1.71;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+}
+
+h2 {
+text-align: center;
+Font style: 700;
+Font size: 36px;
+Line height: 1.17;
+}
+
+/* logo */
+.logo {
+font-family: Raleway, serif;
+color: var(--accient-color);
+font-style: 700;
+font-size: 26px;
+Font family: Raleway;
+Line height: 31px;
+Line height: 1.19;
+
+}
+
+/* header|footer navigation */
+
+.header .link,
+.footer .link {
+  color: var(--title-color);
+}
+
+.header .link:hover,
+.header .link:focus,
+.footer .link:hover,
+.footer .link:focus,
+.header .link.contacts:focus,
+.header .link.contacts:hover,
+.button-filtres:hover, 
+.button-filtres:focus,
+.filtres .filtres-link:hover{
+  color: var(--accient-color);
+  text-decoration: underline;
+}
+
+.header .link.current {
+  color: var(--accient-color);
+}
+
+/* Header */
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+.header .link.contacts {
+
+  color: var(--font-color);
+  
+}
+
+/* section hero */
+.hero {
+  background-color: #2f303a;
+  
+}
+
+.hero .hero-title {
+  color: #ffffff;
+  font-size: 44px;
+  text-align: center;
+  line-height: 600px;
+}
+
+.hero .hero-button {
+  background-color: var(--accient-color);
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Section benefits */
+.benefits .benefits-subtitle {
+  font-style: ;
+}
+
+
+/* Section team */
+
+.team {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+}
+
+.team .team-caption{
+  color: var(--font-color);
+  font-weight: 400;
+}
+
+
+
+/* Footer */
+.footer {
+background-color: #2F303A;
+width: 1600px;
+height: 252px;
+}
+
+.footer .adress {
+color: #fff;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+}
+
+.footer .link {
+
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+text-align: left;
+}
+
+
+
+.footer .adress {
+  font-style: normal;
+}
+
+/* Filtres */
+
+
+
