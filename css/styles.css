@@ -32,12 +32,6 @@ h3 {
   color: var(--title-color);
 }
 
-h2 {
-text-align: center;
-Font style: 700;
-Font size: 36px;
-Line height: 1.17;
-}
 
 /* logo */
 .logo {
@@ -48,8 +42,10 @@ font-size: 26px;
 Font family: Raleway;
 Line height: 31px;
 Line height: 1.19;
-
 }
+
+.logo-header {color: #000000;}
+.logo-footer {color: #ffffff;}
 
 /* header|footer navigation */
 
@@ -113,22 +109,39 @@ Line height: 1.19;
 
 /* Section benefits */
 .benefits .benefits-subtitle {
-  font-style: ;
+  font-weight: 700;
+  line-height: 1.14;
+  
 }
+
 
 
 /* Section team */
 
-.team {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.19;
+.team h2,
+.work h2 {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.17;
+font-style: bold;
+text-align: center;
+}
+
+.team .team-subtitle {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.19;
+color: var(--title-color);
+
 }
 
 .team .team-caption{
-  color: var(--font-color);
   font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
 }
+
 
 
 
@@ -144,24 +157,43 @@ color: #fff;
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71;
+font-style: normal;
 }
 
 .footer .link {
-
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
 font-weight: 400;
 line-height: 1.71;
 text-align: left;
 }
 
 
-
-.footer .adress {
-  font-style: normal;
+/* Filtres */
+.button-filtres {
+  font-size: 16px;
+  background-color: #F5F4FA;
+  color: #000000;
+  font-weight: 500;
+  line-height: 1.16;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-/* Filtres */
+.button-filtres.current {
+  background-color: var(--accient-color);
+  color: #ffffff;
+}
+
+.filtres h2 {
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+}
 
 
-
+.filtres p {
+font-size: 16px;
+line-height: 1.88;
+}
