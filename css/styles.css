@@ -13,39 +13,32 @@ body {
   font-family: Roboto, sans-serif;
   color: #757575;
   font-size: 14px;
-  font-weight: 400;
-  background-color: #fff;
-  line-height: 1.71;
 }
 
-a {
+body a {
   text-decoration: none;
 }
 
-li {
+body li {
   list-style-type: none;
 }
 
-h1,
-h2,
-h3 {
-  color: var(--title-color);
-}
-
-
 /* logo */
 .logo {
-font-family: Raleway, serif;
-color: var(--accient-color);
-font-style: 700;
-font-size: 26px;
-Font family: Raleway;
-Line height: 31px;
-Line height: 1.19;
+  font-family: Raleway, serif;
+  color: var(--accient-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
-.logo-header {color: #000000;}
-.logo-footer {color: #ffffff;}
+.logo-header {
+  color: #000000;
+}
+.logo-footer {
+  color: #ffffff;
+}
 
 /* header|footer navigation */
 
@@ -60,11 +53,8 @@ Line height: 1.19;
 .footer .link:focus,
 .header .link.contacts:focus,
 .header .link.contacts:hover,
-.button-filtres:hover, 
-.button-filtres:focus,
-.filtres .filtres-link:hover{
+.filtres .filtres-link:hover {
   color: var(--accient-color);
-  text-decoration: underline;
 }
 
 .header .link.current {
@@ -75,125 +65,131 @@ Line height: 1.19;
 .header {
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header .link.contacts {
-
   color: var(--font-color);
-  
 }
 
 /* section hero */
 .hero {
   background-color: #2f303a;
-  
 }
 
 .hero .hero-title {
   color: #ffffff;
   font-size: 44px;
   text-align: center;
-  line-height: 600px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero .hero-button {
+  font-family: inherit;
   background-color: var(--accient-color);
   color: #ffffff;
-  width: 200px;
-  height: 50px;
   font-size: 16px;
+  font-weight: 700;
   border: 0px;
   border-radius: 4px;
   cursor: pointer;
+  line-height: 1.19;
+  letter-spacing: 0.06em;
 }
 
 /* Section benefits */
 .benefits .benefits-subtitle {
   font-weight: 700;
   line-height: 1.14;
-  
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
 }
 
-
+.benefits .benefits-caption {
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
 
 /* Section team */
 
-.team h2,
-.work h2 {
-font-size: 36px;
-font-weight: 700;
-line-height: 1.17;
-font-style: bold;
-text-align: center;
+.team .team-title,
+.work .work-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
 }
 
 .team .team-subtitle {
-font-size: 16px;
-font-weight: 500;
-line-height: 1.19;
-color: var(--title-color);
-
-}
-
-.team .team-caption{
-  font-weight: 400;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.19;
+  color: var(--title-color);
+  letter-spacing: 0.03em;
 }
 
-
-
+.team .team-caption {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 
 /* Footer */
 .footer {
-background-color: #2F303A;
-width: 1600px;
-height: 252px;
+  background-color: #2f303a;
 }
 
 .footer .adress {
-color: #fff;
-font-size: 14px;
-font-weight: 400;
-line-height: 1.71;
-font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 .footer .link {
-color: rgba(255, 255, 255, 0.6);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.71;
-text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-
 
 /* Filtres */
 .button-filtres {
+  font-family: inherit;
   font-size: 16px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   color: #000000;
   font-weight: 500;
   line-height: 1.16;
   border: 0px;
   border-radius: 4px;
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
 
-.button-filtres.current {
+.button-filtres:hover,
+.button-filtres:focus {
   background-color: var(--accient-color);
   color: #ffffff;
 }
 
-.filtres h2 {
-font-size: 18px;
-font-weight: 700;
-line-height: 2;
+.filtres .filter-titles {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
 }
 
-
-.filtres p {
-font-size: 16px;
-line-height: 1.88;
+.filtres .filter-caption {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
